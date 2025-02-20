@@ -1,0 +1,23 @@
+{
+  "name": "docker-tutorial",
+  "version": "1.0.0",
+  "description": "Docker tutorial by fireship",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsharliz-Joma/docker-tutorial.git"
+  },
+  "author": "Charles Joma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsharliz-Joma/docker-tutorial/issues"
+  },
+  "homepage": "https://github.com/tsharliz-Joma/docker-tutorial#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

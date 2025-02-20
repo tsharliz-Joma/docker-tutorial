@@ -1,0 +1,4 @@
+node_modules/
+
+# We add the node_modules because when someone pulls our image, we dont want our node modules to overwrite there's
+# 
