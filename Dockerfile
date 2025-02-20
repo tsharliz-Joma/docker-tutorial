@@ -1,5 +1,5 @@
 #  Every instruction in this docker file is considered its own 'step' or 'layer' in the final image.
-FROM node:14
+FROM node:16
 
 WORKDIR /app
 # In docker we want to install our dependencies first, so that we can cache the dependencies and not have to reinstall them every time we make a change to our code.
